@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import logo from '../Images/Logo1.png';
+import HowItWorks from '../HowItWorks/HowItWorks';
 import './Navbar.css';
 
 function Navbar() {
@@ -44,7 +45,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/HowItWorks'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
